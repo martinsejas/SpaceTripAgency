@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+## Projeto LabeX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(dados de mock admin)
 
-## Available Scripts
+USER: martin@labenu.com
+SENHA: 12345
 
-In the project directory, you can run:
 
-### `npm start`
+### Funcionalidades
+--------------------------------------------------------------------------------------------------------------------------------------------
+[X]  1. Criar funcionalidade de logout do admin
+[X]  2. Fazer loadings para as requisições de get
+[X]  3. Fazer loadings para as requisições de post (dica: elas se iniciam quando você aperta um botão e finalizam no caso de sucesso ou erro da requisição)
+[X] 4. Faça o seu site ser responsivo para funcionar bem em celulares (para testar, use o iphone 5/6/7 no navegador)
+[X] 5. Estilização usando ChakraUI 
+[X] 6. Forms com Formik 
+[X] 7. Controle de Erro de Formulario com Yup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Header Adaptivo a estado do loggedIn do usuario
+-  Em caso de URL errado, usuario redireccionado a HomePage
+- LogIn da mensagem de erro se errar dados
+-  Ao fazer LogOut, Se Candidatar, ou fazer Missão (Trip) notificação de successo
+- Controle de form estrito, mensagem de erro se campo estiver vazio, não ter os minimos caracteres, sobrepassar do maximo
+- Controle de data (criar trip) com regex que não aceita 29 de fev quando não é ano bissexto
+- Muitos Mais! Por favor testem tudo :)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Link do site
+[labex-martin.surge.sh](https://labex-martin.surge.sh/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Imagens
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://user-images.githubusercontent.com/99181273/166063473-3eabd38b-9639-48fe-81d5-3f9ae9538a82.png)
+![image](https://user-images.githubusercontent.com/99181273/166063537-83e3bd0b-641f-4392-b05f-c5c3b719d333.png)
+![image](https://user-images.githubusercontent.com/99181273/166063671-5354ed5f-49c6-4478-afd2-4f55ee5d29e8.png)
+![image](https://user-images.githubusercontent.com/99181273/166063716-5bcb3bab-5daf-41e3-9941-3e120552a01a.png)
+![image](https://user-images.githubusercontent.com/99181273/166063760-de804f6e-ad0f-4796-9747-10c765054423.png)
+![image](https://user-images.githubusercontent.com/99181273/166063825-cfd2efd3-fbc3-488e-9d43-f8d8c395f3d5.png)
+![image](https://user-images.githubusercontent.com/99181273/166063857-b9452575-fef6-4b84-853f-31ba594ceeaf.png)
+![image](https://user-images.githubusercontent.com/99181273/166063903-00e4081e-1712-49a3-9ff6-8218b839ecab.png)
+![image](https://user-images.githubusercontent.com/99181273/166064032-411cfdf1-9c18-457b-ad2c-051fc9f80ff3.png)
+![image](https://user-images.githubusercontent.com/99181273/166064139-9f879485-f5fc-4d79-bd0e-3424bc973d00.png)
+![image](https://user-images.githubusercontent.com/99181273/166064201-5514f1d7-454a-4271-ac7b-a43b0faa84dd.png)
+![image](https://user-images.githubusercontent.com/99181273/166064244-80c137e8-299f-452d-9cc7-b8b74ed2d828.png)
+![image](https://user-images.githubusercontent.com/99181273/166064286-1de9de56-cff1-4e20-ae1d-4be31d9a09d5.png)
+![image](https://user-images.githubusercontent.com/99181273/166064477-0136c9df-cae5-4b13-b62d-e2a16a9b4c96.png)
