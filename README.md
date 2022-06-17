@@ -8,13 +8,13 @@ SENHA: 12345
 
 ### Funcionalidades
 --------------------------------------------------------------------------------------------------------------------------------------------
-[X]  1. Criar funcionalidade de logout do admin
-[X]  2. Fazer loadings para as requisições de get
-[X]  3. Fazer loadings para as requisições de post (dica: elas se iniciam quando você aperta um botão e finalizam no caso de sucesso ou erro da requisição)
-[X] 4. Faça o seu site ser responsivo para funcionar bem em celulares (para testar, use o iphone 5/6/7 no navegador)
-[X] 5. Estilização usando ChakraUI 
-[X] 6. Forms com Formik 
-[X] 7. Controle de Erro de Formulario com Yup
+- [X]  1. Criar funcionalidade de logout do admin
+- [X]  2. Fazer loadings para as requisições de get
+- [X]  3. Fazer loadings para as requisições de post (dica: elas se iniciam quando você aperta um botão e finalizam no caso de sucesso ou erro da requisição)
+- [X] 4. Faça o seu site ser responsivo para funcionar bem em celulares (para testar, use o iphone 5/6/7 no navegador)
+- [X] 5. Estilização usando ChakraUI 
+- [X] 6. Forms com Formik 
+- [X] 7. Controle de Erro de Formulario com Yup
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
